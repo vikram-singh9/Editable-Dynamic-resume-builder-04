@@ -1,0 +1,54 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: white;
+    margin: 0;
+    padding: 20px;
+  }
+  
+  .form-container, .resume-container {
+    max-width: 600px;
+    background-color: gainsboro;
+    padding: 20px;
+    margin: 20px auto;
+    border-radius: 8px;
+   
+  }
+  
+  h1, h2 {
+    color: #333;
+  }
+  
+  label {
+    font-weight: bold;
+  }
+  
+  input {
+    margin: 10px 0;
+    padding: 8px;
+    width: 100%;
+    box-sizing: border-box;
+  }
+  
+  button {
+    padding: 10px 15px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin-top: 15px;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  .resume-container h2 {
+    color: #007BFF;
+  }
+  
+  [contenteditable="true"] {
+    outline: 2px dashed #007BFF;
+    padding: 4px;
+    border-radius: 4px;
+  }
+  
